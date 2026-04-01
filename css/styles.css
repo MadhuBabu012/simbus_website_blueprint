@@ -111,7 +111,7 @@ p  { color: var(--grey-300); line-height: 1.72; }
   justify-content: space-between;
   width: 100%;
 }
-.logo {
+ .logo {
   font-family: var(--font-head);
   font-size: 1.45rem;
   font-weight: 800;
@@ -120,10 +120,11 @@ p  { color: var(--grey-300); line-height: 1.72; }
   gap: 10px;
 }
 .logo-icon {
-  width: 38px; height: 38px;
-  background: linear-gradient(135deg, var(--electric), var(--electric-2));
+  width: 150px; height: 100px;
+  /* background: linear-gradient(135deg, var(--electric), var(--electric-2)); */
   border-radius: 8px;
   display: flex;
+  padding: 8px 16px;
   align-items: center;
   justify-content: center;
   font-size: 1.1rem;
@@ -139,7 +140,7 @@ p  { color: var(--grey-300); line-height: 1.72; }
   color: var(--grey-300);
   transition: var(--transition);
   position: relative;
-}
+} 
 .nav-links a:hover, .nav-links a.active {
   color: var(--white);
   background: rgba(0,212,255,0.08);
